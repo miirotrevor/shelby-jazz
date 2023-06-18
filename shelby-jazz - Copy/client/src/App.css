@@ -1,0 +1,79 @@
+/* App.css */
+
+/* Overall app layout */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Sidebar header */
+.sidebar .header {
+  margin-bottom: 20px;
+}
+
+.sidebar .header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Chat section */
+.chat {
+  flex: 3;
+  padding: 20px;
+}
+
+/* Chat header */
+.chat .header {
+  margin-bottom: 20px;
+}
+
+.chat .header h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Chat body */
+.chat-body {
+  height: calc(100% - 160px);
+  overflow-y: scroll;
+}
+
+/* Input box */
+.input-box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input-box form {
+  display: flex;
+  flex: 1;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-box button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background-color: #45a049;
+}
